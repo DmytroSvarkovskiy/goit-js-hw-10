@@ -40,3 +40,13 @@ ul {
   padding-bottom: 15px;
   font-size: 20;
 }
+.options {
+  font-size: 20;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.indicators {
+  font-size: 18;
+  font-weight: 500;
+  color: #39194b;
+}

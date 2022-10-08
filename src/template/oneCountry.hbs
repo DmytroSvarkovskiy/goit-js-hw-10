@@ -7,7 +7,10 @@
   />
   <h2>{{name.official}}</h2></div>
 <ul>
-  <li>Capital: {{capital}}</li>
-  <li>Population: {{population}}</li>
-  <li>Languages: {{#each languages}} {{.}}{{/each}}</li>
+  <li class='options'>Capital: <span class='indicators'>{{capital}}</span></li>
+  <li class='options'>Population:
+    <span class='indicators'>{{population}}</span></li>
+  <li class='options'>Languages:
+    <span class='indicators'>{{#each languages}}
+        {{this}}{{#unless @last}}, {{/unless}}{{/each}}</span></li>
 </ul>
